@@ -1,10 +1,15 @@
-# Dataset
+# Dataset Instructions
 
 Place `sample-ecommerce-orders.csv` in this folder.
 
-Source:
-https://cotera.co/datasets/library/sample-ecommerce-orders
+## Dataset Source
 
-The source page describes the dataset as synthetic e-commerce order data and lists it under CC0 1.0.
+Source: https://cotera.co/datasets/library/sample-ecommerce-orders
 
-Do not commit the CSV to GitHub. The analysis scripts read it locally from this folder.
+The source page describes this as synthetic e-commerce order data and lists the dataset under CC0 1.0.
+
+## Important
+
+Do not commit the CSV file to GitHub.
+
+The raw CSV is kept locally and is ignored by `.gitignore`. The analysis scripts read the CSV from this folder when running the project locally.
